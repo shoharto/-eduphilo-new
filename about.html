@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EduPhilo Consulting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eduphilo-blue': '#1e3a8a',
+                        'eduphilo-red': '#ef4444',
+                        'eduphilo-beige': '#fef3c7',
+                        'eduphilo-dark-blue': '#1e40af',
+                        'eduphilo-light-blue': '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="logo.jpeg" alt="EduPhilo Consulting Logo" class="h-12 w-auto">
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Home</a>
+                    <a href="about.html" class="text-eduphilo-blue hover:text-eduphilo-red transition-colors duration-300 font-medium">About Us</a>
+                    <a href="services.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Services</a>
+                    <a href="programs.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Programs</a>
+                    <a href="institutions.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Institutions</a>
+                    <a href="training.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Training</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-eduphilo-blue">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-gradient-to-br from-eduphilo-blue to-eduphilo-red text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Who We Are</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    EduPhilo Consulting has been set up based on the philosophy of 'Education IS Life', upon recognising and appreciating humanity continuous life development. The distinct values of Human Governance are immersed in every aspect of learning and training, ensuring deliveries of outcome as per stated objectives and expectations.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">The Practice of Humanising deliverables for learning and training is conquered by the following acronym:</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-eduphilo-beige p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-3">H ~ Honesty</h3>
+                        <p class="text-gray-700">in undertaking responsibilities, for both providers and learners.</p>
+                    </div>
+
+                    <div class="bg-eduphilo-beige p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-3">U ~ Understanding</h3>
+                        <p class="text-gray-700">fully the needs and requirements of learners and stakeholders.</p>
+                    </div>
+
+                    <div class="bg-eduphilo-beige p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-3">M ~ Mutual considerations</h3>
+                        <p class="text-gray-700">in fulfilling expectations for the programmes and courses outcomes.</p>
+                    </div>
+
+                    <div class="bg-eduphilo-beige p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-3">A ~ Amplify</h3>
+                        <p class="text-gray-700">the potentials for every individuals who have put the trusts on us.</p>
+                    </div>
+
+                    <div class="bg-eduphilo-beige p-6 rounded-lg md:col-span-2">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-3">N ~ Narrowing</h3>
+                        <p class="text-gray-700">the gap between the highest and the lowest achievers, adjusting to individuality.</p>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">Our services are focused on three broad areas, namely:</h2>
+
+                <div class="space-y-6">
+                    <div class="bg-white border-l-4 border-eduphilo-blue pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">1. Opening up opportunities for school leavers</h3>
+                        <p class="text-gray-700">
+                            to pursue their dreams career through myriads of higher educational institutions around the world. These institutions offer numerous programmes, both academic, professional and vocational qualifications which lead to successes in employment and business ventures.
+                        </p>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-eduphilo-blue pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">2. Provision of life-long learning and re-skilling/up-skilling opportunities through:</h3>
+                        <div class="ml-6 space-y-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">2.1 Corporate training</h4>
+                                <p class="text-gray-700">for companies and individuals who embrace continuous self development in Areas of expertise with customised proposals based on training need analysis.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">2.2. Soft-skills, particularly communications skills, development</h4>
+                                <p class="text-gray-700">for post O-Levels qualifiers which Complement learners' needs from higher education up to post-retirement levels. These short Courses are built upon language capabilities platform of English, Malay, Arabic, Mandarin, Japanese, German, Russian and other language as needed.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">2.3. Micro-credentials & short courses at certificate level</h4>
+                                <p class="text-gray-700">which are stackable as a pathway to higher Qualifications from undergraduate up to postgraduate levels. To add value to these courses, it Is strongly suggested for learners to undertake the package of this course and soft-skills which Will undoubtedly strengthen further your certification and value for employment and business Alike.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-eduphilo-blue pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">3. Apprenticeship Programme</h3>
+                        <p class="text-gray-700">
+                            which is a type of TVET qualification, offers the most comprehensive Values for learners from the learning stage up to employment or business venture. This qualification Is crafted as per Blue Ocean Strategy where the demand is created for impending employment or Business venture. It is called a 'future-proof' certification as learners are studying while working full- Time, thus immersing the knowledge & skills into reality of work and life. Soft skills and communication Competencies are embedded into the Programme with knowledge and skills needed by industry now And in the future. This Programme is currently being developed and shall be offered upon readiness.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-eduphilo-beige p-8 rounded-lg mt-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        In essence, EduPhilo Consulting Firm is providing a comprehensive knowledge and skills development eco-system for post O-Levels equivalent qualifiers based on H.U.M.A.N approach that will continuously improve people's lives now and in the future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2024 EduPhilo Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

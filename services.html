@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - EduPhilo Consulting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eduphilo-blue': '#1e3a8a',
+                        'eduphilo-red': '#ef4444',
+                        'eduphilo-beige': '#fef3c7',
+                        'eduphilo-dark-blue': '#1e40af',
+                        'eduphilo-light-blue': '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="logo.jpeg" alt="EduPhilo Consulting Logo" class="h-12 w-auto">
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">About Us</a>
+                    <a href="services.html" class="text-eduphilo-blue hover:text-eduphilo-red transition-colors duration-300 font-medium">Services</a>
+                    <a href="programs.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Programs</a>
+                    <a href="institutions.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Institutions</a>
+                    <a href="training.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Training</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-gradient-to-br from-eduphilo-blue to-eduphilo-red text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">SERVICES</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="space-y-12">
+                <!-- Academic Opportunity -->
+                <div class="bg-white border-l-4 border-eduphilo-blue pl-6">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">ACADEMIC OPPORTUNITY</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        Qualifications are awarded by renowned and accredited higher learning institutions in Malaysia and abroad, which are divided into postgraduate, professional and undergraduate degree programmes.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div class="bg-eduphilo-beige p-6 rounded-lg">
+                            <h3 class="text-xl font-bold text-eduphilo-blue mb-4">Postgraduate Degree Programmes</h3>
+                            <p class="text-gray-700 mb-4">Comprehensive range of advanced degree programs designed for career advancement and specialized knowledge acquisition.</p>
+                            <a href="programs.html" class="inline-block bg-eduphilo-blue text-white px-6 py-2 rounded-lg hover:bg-eduphilo-red transition-colors">
+                                View Programs
+                            </a>
+                        </div>
+
+                        <div class="bg-eduphilo-beige p-6 rounded-lg">
+                            <h3 class="text-xl font-bold text-eduphilo-blue mb-4">Professional Qualification Programmes</h3>
+                            <p class="text-gray-700 mb-4">Industry-recognized certifications and professional qualifications to enhance career prospects and expertise.</p>
+                            <a href="programs.html" class="inline-block bg-eduphilo-blue text-white px-6 py-2 rounded-lg hover:bg-eduphilo-red transition-colors">
+                                View Programs
+                            </a>
+                        </div>
+
+                        <div class="bg-eduphilo-beige p-6 rounded-lg">
+                            <h3 class="text-xl font-bold text-eduphilo-blue mb-4">Undergraduate Degree Programmes</h3>
+                            <p class="text-gray-700 mb-4">Foundation degree programs providing essential knowledge and skills for professional development.</p>
+                            <a href="programs.html" class="inline-block bg-eduphilo-blue text-white px-6 py-2 rounded-lg hover:bg-eduphilo-red transition-colors">
+                                View Programs
+                            </a>
+                        </div>
+
+                        <div class="bg-eduphilo-beige p-6 rounded-lg">
+                            <h3 class="text-xl font-bold text-eduphilo-blue mb-4">Micro-credential Courses</h3>
+                            <p class="text-gray-700 mb-4">Specialized short courses and micro-credentials for skill enhancement and continuous learning.</p>
+                            <a href="programs.html" class="inline-block bg-eduphilo-blue text-white px-6 py-2 rounded-lg hover:bg-eduphilo-red transition-colors">
+                                View Programs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customised Corporate Training -->
+                <div class="bg-white border-l-4 border-eduphilo-red pl-6">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">CUSTOMISED CORPORATE TRAINING</h2>
+                    <p class="text-lg text-gray-700 mb-6">
+                        Programmes and Courses are customised for clients based on Training Needs Analysis, undertaken by our multi-talented consultants or trainers in their respective fields of expertise such as Entrepreneurship, Human Capital Development, Social Sciences and Service Excellence.
+                    </p>
+
+                    <div class="bg-eduphilo-beige p-6 rounded-lg mb-6">
+                        <h3 class="text-xl font-bold text-eduphilo-blue mb-4">Our Training Approach</h3>
+                        <p class="text-gray-700 mb-4">
+                            We believe adult learning must be engaging and experiential. Training sessions are conducted in and outside training rooms, either at any training academy or hotels. Depending on modules, some training sessions focus on practical training and drilling, either in the training room itself or on-stage where participants perform their duties.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Basic Supervisory Skills</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Personnel Personality Profiling (DISC, Leonard and MBTI)</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">BINGO - Business Intelligence and "Guest Centric" Organisation</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Social and Etiquette Grooming</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Business Success Begins with Me</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Stress Management</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Corporate Culture Change for Gain</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Transforming Self Leading Others/Inspire Others</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Customer Service with 7 Winning Personalities</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Planning and Organising Skills</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Innovate! Think Outside The Box / Think Lateral Way</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Strategic Management and Scenario Planning</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Journey of Excellence: My Job My Pride</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Motivational and Organisational Change</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Managing Complaints</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">HR for Non-HR Heads</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Managing Expectations, Tasks & Time</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Interpersonal Relationship</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">Mentoring and Leadership Culture</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md">
+                            <h4 class="font-bold text-gray-800 mb-2">The Champions Secretaries and Admin Personnel</h4>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="training.html" class="inline-block bg-eduphilo-red text-white px-8 py-3 rounded-lg hover:bg-eduphilo-blue transition-colors text-lg font-semibold">
+                            Learn More About Corporate Training
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Apprenticeship Programme -->
+                <div class="bg-white border-l-4 border-eduphilo-blue pl-6">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">APPRENTICESHIP PROGRAMME</h2>
+                    <div class="bg-eduphilo-beige p-8 rounded-lg">
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            which is a type of TVET qualification, offers the most comprehensive Values for learners from the learning stage up to employment or business venture. This qualification Is crafted as per Blue Ocean Strategy where the demand is created for impending employment or Business venture. It is called a 'future-proof' certification as learners are studying while working full- Time, thus immersing the knowledge & skills into reality of work and life. Soft skills and communication Competencies are embedded into the Programme with knowledge and skills needed by industry now And in the future. This Programme is currently being developed and shall be offered upon readiness.
+                        </p>
+                        <div class="bg-white p-4 rounded-lg">
+                            <p class="text-gray-700 font-semibold">Status: Currently being developed and shall be offered upon readiness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2024 EduPhilo Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

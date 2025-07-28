@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EduPhilo Consulting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eduphilo-blue': '#1e3a8a',
+                        'eduphilo-red': '#ef4444',
+                        'eduphilo-beige': '#fef3c7',
+                        'eduphilo-dark-blue': '#1e40af',
+                        'eduphilo-light-blue': '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="logo.jpeg" alt="EduPhilo Consulting Logo" class="h-12 w-auto">
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">About Us</a>
+                    <a href="services.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Services</a>
+                    <a href="programs.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Programs</a>
+                    <a href="institutions.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Institutions</a>
+                    <a href="training.html" class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Training</a>
+                    <a href="contact.html" class="text-eduphilo-blue hover:text-eduphilo-red transition-colors duration-300 font-medium">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-eduphilo-blue transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-gradient-to-br from-eduphilo-blue to-eduphilo-red text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">CONTACT US</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div class="bg-eduphilo-beige p-8 rounded-lg">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-6">Official Address</h2>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-eduphilo-blue rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">EduPhilo Consulting</h3>
+                                    <p class="text-gray-700">Registration Number : 202503154040 (CA0404334 - M)</p>
+                                    <p class="text-gray-700">C - 04 - 02, Level 4, Block C</p>
+                                    <p class="text-gray-700">Tamarind Square</p>
+                                    <p class="text-gray-700">Persiaran Multimedia</p>
+                                    <p class="text-gray-700">63000 Cyberjaya</p>
+                                    <p class="text-gray-700">Selangor</p>
+                                    <p class="text-gray-700 font-bold">MALAYSIA</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-eduphilo-blue rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">Office Number</h3>
+                                    <p class="text-gray-700">+6 03 8800 8832</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-eduphilo-blue rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">Mobile Number</h3>
+                                    <p class="text-gray-700">+6 016 208 1741</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-eduphilo-blue rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">E-mail</h3>
+                                    <p class="text-gray-700">s_shahrani@eduphilo.com.my</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location Map -->
+                    <div class="bg-eduphilo-beige p-8 rounded-lg">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-6">Location Map</h2>
+                        <p class="text-gray-700 mb-4">As per Google Map</p>
+                        <div class="bg-gray-300 h-64 rounded-lg flex items-center justify-center">
+                            <p class="text-gray-600">Google Maps Integration</p>
+                        </div>
+                    </div>
+
+                    <!-- Countries/Region of Focus -->
+                    <div class="bg-eduphilo-beige p-8 rounded-lg">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-6">Countries/Region of Focus</h2>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded-lg text-center">
+                                <h3 class="font-bold text-gray-800">MALAYSIA</h3>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg text-center">
+                                <h3 class="font-bold text-gray-800">INDONESIA</h3>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg text-center">
+                                <h3 class="font-bold text-gray-800">MIDDLE EAST</h3>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg text-center">
+                                <h3 class="font-bold text-gray-800">CENTRAL ASIA</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white border border-gray-200 p-8 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h2>
+                    
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-eduphilo-blue focus:border-transparent">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-eduphilo-blue focus:border-transparent">
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-eduphilo-blue focus:border-transparent">
+                        </div>
+
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                            <select id="subject" name="subject" required 
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-eduphilo-blue focus:border-transparent">
+                                <option value="">Select a subject</option>
+                                <option value="academic-programs">Academic Programs</option>
+                                <option value="corporate-training">Corporate Training</option>
+                                <option value="apprenticeship">Apprenticeship Programme</option>
+                                <option value="general-inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="6" required 
+                                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-eduphilo-blue focus:border-transparent"
+                                      placeholder="Please tell us how we can help you..."></textarea>
+                        </div>
+
+                        <button type="submit" 
+                                class="w-full bg-gradient-to-r from-eduphilo-blue to-eduphilo-red text-white py-3 px-6 rounded-lg hover:from-eduphilo-red hover:to-eduphilo-blue transition-all duration-300 font-semibold">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2024 EduPhilo Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
