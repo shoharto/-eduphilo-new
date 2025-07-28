@@ -56,245 +56,421 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="pt-16 bg-gradient-to-br from-eduphilo-blue via-eduphilo-dark-blue to-eduphilo-red relative overflow-hidden">
-        <!-- Background Pattern -->
-        <div class="absolute inset-0 bg-black opacity-20"></div>
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black/20"></div>
+    <!-- Modern Hero Section -->
+    <section id="home" class="pt-16 relative overflow-hidden bg-gradient-to-br from-slate-900 via-eduphilo-blue to-eduphilo-dark-blue min-h-screen flex items-center">
+        <!-- Animated Background -->
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+        </div>
         
-        <!-- Floating Elements -->
-        <div class="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
-        <div class="absolute bottom-20 right-10 w-32 h-32 bg-eduphilo-red/20 rounded-full blur-xl"></div>
-        <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-eduphilo-light-blue/20 rounded-full blur-lg"></div>
+        <!-- Floating Geometric Shapes -->
+        <div class="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-eduphilo-red/20 to-transparent rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-20 right-10 w-40 h-40 bg-gradient-to-tl from-eduphilo-light-blue/20 to-transparent rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div class="absolute top-1/2 left-1/4 w-24 h-24 bg-gradient-to-r from-white/10 to-transparent rounded-full blur-2xl animate-pulse delay-500"></div>
         
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
-            <div class="text-center">
-                <!-- Logo in Hero -->
-                <div class="mb-8 flex justify-center">
-                    <img src="logo.jpeg" alt="EduPhilo Consulting Logo" class="h-20 w-auto drop-shadow-2xl">
-                </div>
-                
-                <!-- Main Quote -->
-                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 md:p-8 lg:p-10 shadow-2xl border border-white/20 max-w-4xl mx-auto">
-                    <blockquote class="relative text-center">
-                        <div class="relative">
-                            <h1 class="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium leading-relaxed md:leading-loose text-gray-800 mb-6 px-4">
-                                <span class="text-3xl md:text-4xl text-eduphilo-blue font-bold leading-none inline-block -ml-2">"</span>
-                                <span class="inline-block text-left">
-                                    Education & Training shape human lives by unlocking potential, improving well-being, reducing Inequality and enabling societal progress. It is not just about knowledge acquisition - it is about Shaping the very foundation of human dignity, opportunity and collective advancement.
-                                </span>
-                                <span class="text-3xl md:text-4xl text-eduphilo-red font-bold leading-none inline-block -mr-2">"</span>
-                            </h1>
-                        </div>
-                        
-                        <!-- Quote Attribution -->
-                        <div class="flex items-center justify-center space-x-4 mt-8">
-                            <div class="w-16 h-0.5 bg-gradient-to-r from-eduphilo-blue to-eduphilo-red rounded-full"></div>
-                            <cite class="text-base md:text-lg font-semibold text-eduphilo-blue not-italic px-4">EduPhilo Consulting</cite>
-                            <div class="w-16 h-0.5 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue rounded-full"></div>
-                        </div>
-                    </blockquote>
-                </div>
-                
-                <!-- Call to Action -->
-                <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="about.html" class="bg-eduphilo-blue hover:bg-eduphilo-dark-blue text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg">
-                        Discover Our Mission
-                    </a>
-                    <a href="services.html" class="bg-white/90 hover:bg-white text-eduphilo-blue px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg border-2 border-white/50">
-                        Explore Services
-                    </a>
-                </div>
-                
-                <!-- Scroll Indicator -->
-                <div class="mt-16 animate-bounce">
-                    <div class="w-6 h-10 border-2 border-white/50 rounded-full mx-auto flex justify-center">
-                        <div class="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 relative z-10 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column - Content -->
+                <div class="text-left space-y-8">
+                    <!-- Modern Badge -->
+                    <div class="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
+                        <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 animate-pulse"></div>
+                        <span class="text-white/90 text-sm font-medium">Transforming Education Since 2020</span>
                     </div>
-                    <p class="text-white/80 text-sm mt-2">Scroll to explore</p>
+                    
+                    <!-- Main Headline -->
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                        <span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                            Education
+                        </span>
+                        <br>
+                        <span class="bg-gradient-to-r from-eduphilo-red to-eduphilo-light-blue bg-clip-text text-transparent">
+                            IS Life
+                        </span>
+                    </h1>
+                    
+
+                    
+                    <!-- Main Quote -->
+                    <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-6 md:p-8 border border-white/20 mb-8">
+                        <blockquote class="relative">
+                            <div class="relative">
+                                <p class="text-lg md:text-xl text-white leading-relaxed mb-4">
+                                    <span class="text-2xl md:text-3xl text-eduphilo-red font-bold leading-none inline-block -ml-1">"</span>
+                                    Education & Training shape human lives by unlocking potential, improving well-being, reducing Inequality and enabling societal progress. It is not just about knowledge acquisition - it is about Shaping the very foundation of human dignity, opportunity and collective advancement.
+                                    <span class="text-2xl md:text-3xl text-eduphilo-red font-bold leading-none inline-block -mr-1">"</span>
+                                </p>
+                            </div>
+                            
+                            <!-- Quote Attribution -->
+                            <div class="flex items-center space-x-3 mt-4">
+                                <div class="w-8 h-0.5 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue rounded-full"></div>
+                                <cite class="text-sm md:text-base font-semibold text-eduphilo-light-blue not-italic">EduPhilo Consulting</cite>
+                                <div class="w-8 h-0.5 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue rounded-full"></div>
+                            </div>
+                        </blockquote>
+                    </div>
+                    
+                    <!-- Modern CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="about.html" class="group relative px-8 py-4 bg-gradient-to-r from-eduphilo-red to-eduphilo-red/80 text-white rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-lg overflow-hidden">
+                            <span class="relative z-10">Discover Our Mission</span>
+                            <div class="absolute inset-0 bg-gradient-to-r from-eduphilo-red/80 to-eduphilo-red opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </a>
+                        <a href="services.html" class="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:bg-white/20 border border-white/20">
+                            Explore Services
+                            <svg class="inline-block w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-6 pt-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white">500+</div>
+                            <div class="text-gray-400 text-sm">Students Enrolled</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white">50+</div>
+                            <div class="text-gray-400 text-sm">Partner Institutions</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-white">95%</div>
+                            <div class="text-gray-400 text-sm">Success Rate</div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- HUMAN Infographic Section -->
-    <section class="py-16 bg-gradient-to-b from-eduphilo-beige to-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-eduphilo-blue mb-4">EDUCATION AND HUMAN LIVES</h2>
-                <div class="w-32 h-1 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue mx-auto rounded-full"></div>
-            </div>
-
-            <!-- HUMAN Infographic Image -->
-            <div class="flex justify-center mb-12">
+                
+                <!-- Right Column - Logo & Visual -->
                 <div class="relative">
-                    <img src="HUMAN-infographic.jpeg" alt="EDUCATION AND HUMAN LIVES Infographic" class="max-w-full h-auto rounded-xl shadow-2xl" style="max-width: 800px;">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent rounded-xl"></div>
+                    <div class="relative z-10">
+                        <img src="logo.jpeg" alt="EduPhilo Consulting Logo" class="w-full max-w-md mx-auto drop-shadow-2xl">
+                    </div>
+                    <!-- Floating Elements Around Logo -->
+                    <div class="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-eduphilo-red/30 to-transparent rounded-full blur-xl animate-bounce"></div>
+                    <div class="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-tl from-eduphilo-light-blue/30 to-transparent rounded-full blur-xl animate-bounce delay-1000"></div>
                 </div>
             </div>
-
-            <!-- Additional Information -->
-            <div class="text-center">
-                <p class="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                    Education shapes human lives by unlocking potential, improving well-being, reducing inequality and enabling societal progress. 
-                    It is not just about knowledge acquisition - it is about shaping the very foundation of human dignity, opportunity and collective advancement.
-                </p>
-            </div>
         </div>
-    </section>
-
-    <!-- Mission Statement -->
-    <section class="py-16 bg-gradient-to-b from-white to-gray-50">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                <h2 class="text-3xl font-bold text-eduphilo-blue mb-8">Mission Statement:</h2>
-                <p class="text-xl text-gray-700 leading-relaxed">
-                    To provide inclusive, lifelong education and training that equips individuals with the knowledge, skills and values necessary to lead meaningful lives, contribute to society, and uphold the dignity and potential of every human being.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gradient-to-r from-eduphilo-blue to-eduphilo-dark-blue text-white py-12 relative">
-        <!-- Top border accent -->
-        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-eduphilo-red to-eduphilo-light-blue"></div>
         
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+            <div class="flex flex-col items-center space-y-2">
+                <span class="text-white/60 text-sm font-medium">Scroll to explore</span>
+                <div class="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
+                    <div class="w-1 h-3 bg-white/60 rounded-full mt-2 animate-bounce"></div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Infographic Section -->
+    <section class="py-24 bg-gradient-to-br from-gray-50 via-white to-eduphilo-beige/30 relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-eduphilo-blue/5 to-transparent rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-eduphilo-red/5 to-transparent rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Modern Header -->
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center px-4 py-2 bg-eduphilo-blue/10 text-eduphilo-blue rounded-full text-sm font-medium mb-6">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                    </svg>
+                    Our Impact
+                </div>
+                <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                    <span class="bg-gradient-to-r from-eduphilo-blue to-eduphilo-red bg-clip-text text-transparent">
+                        EDUCATION AND HUMAN LIVES
+                    </span>
+                </h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue mx-auto rounded-full"></div>
+            </div>
+
+            <!-- Modern Infographic Display -->
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
+                <!-- Left: Infographic Image -->
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-gradient-to-r from-eduphilo-blue/20 to-eduphilo-red/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
+                    <div class="relative bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
+                        <img src="HUMAN-infographic.jpeg" alt="EDUCATION AND HUMAN LIVES Infographic" class="w-full h-auto rounded-2xl">
+                    </div>
+                </div>
+                
+                <!-- Right: Key Points -->
+                <div class="space-y-8">
+                    <div class="space-y-6">
+                        <h3 class="text-3xl font-bold text-gray-900 mb-6">Transforming Lives Through Education</h3>
+                        <p class="text-xl text-gray-600 leading-relaxed">
+                            Education shapes human lives by unlocking potential, improving well-being, reducing inequality and enabling societal progress. 
+                            It is not just about knowledge acquisition - it is about shaping the very foundation of human dignity, opportunity and collective advancement.
+                        </p>
+                    </div>
+                    
+                    <!-- Key Statistics -->
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                            <div class="text-3xl font-bold text-eduphilo-blue mb-2">4</div>
+                            <div class="text-gray-600 font-medium">Core Impact Areas</div>
+                        </div>
+                        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
+                            <div class="text-3xl font-bold text-eduphilo-red mb-2">100%</div>
+                            <div class="text-gray-600 font-medium">Life Transformation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Mission Statement -->
+    <section class="py-24 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z" fill="%23e5e7eb" fill-opacity="0.3" fill-rule="evenodd"/%3E%3C/svg%3E')] opacity-50"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Left: Mission Content -->
+                <div class="space-y-8">
+                    <div class="space-y-6">
+                        <div class="inline-flex items-center px-4 py-2 bg-eduphilo-blue/10 text-eduphilo-blue rounded-full text-sm font-medium">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                            Our Purpose
+                        </div>
+                        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                            <span class="bg-gradient-to-r from-eduphilo-blue to-eduphilo-red bg-clip-text text-transparent">
+                                Mission Statement
+                            </span>
+                        </h2>
+                        <div class="w-20 h-1 bg-gradient-to-r from-eduphilo-red to-eduphilo-blue rounded-full"></div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
+                        <p class="text-xl md:text-2xl text-gray-700 leading-relaxed font-normal text-left">
+                            To provide inclusive, lifelong education and training that equips individuals with the knowledge, skills and values necessary to lead meaningful lives, contribute to society, and uphold the dignity and potential of every human being.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Right: Visual Elements -->
+                <div class="relative">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="space-y-6">
+                            <div class="bg-gradient-to-br from-eduphilo-blue to-eduphilo-dark-blue rounded-3xl p-6 text-white">
+                                <div class="text-3xl font-bold mb-2">Inclusive</div>
+                                <div class="text-blue-100">Education for all</div>
+                            </div>
+                            <div class="bg-gradient-to-br from-eduphilo-red to-red-600 rounded-3xl p-6 text-white">
+                                <div class="text-3xl font-bold mb-2">Lifelong</div>
+                                <div class="text-red-100">Continuous learning</div>
+                            </div>
+                        </div>
+                        <div class="space-y-6 pt-12">
+                            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 text-white">
+                                <div class="text-3xl font-bold mb-2">Skills</div>
+                                <div class="text-gray-300">Practical knowledge</div>
+                            </div>
+                            <div class="bg-gradient-to-br from-eduphilo-light-blue to-blue-500 rounded-3xl p-6 text-white">
+                                <div class="text-3xl font-bold mb-2">Values</div>
+                                <div class="text-blue-100">Ethical foundation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Modern Footer -->
+    <footer class="bg-gradient-to-br from-slate-900 via-eduphilo-blue to-eduphilo-dark-blue text-white py-16 relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.03"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
+            <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-eduphilo-red via-eduphilo-light-blue to-eduphilo-red"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Main Footer Content -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                 <!-- EduPhilo Section -->
                 <div class="text-center lg:text-left">
-                    <h3 class="text-xl font-bold text-yellow-400 mb-4">EduPhilo</h3>
-                    <p class="text-sm text-gray-200 mb-6 leading-relaxed">
-                        Empowering futures through knowledge and skills. Your trusted partner in education and professional development.
-                    </p>
-                    <!-- Social Media Icons -->
-                    <div class="flex justify-center lg:justify-start space-x-4">
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <div class="mb-6">
+                        <img src="logo.jpeg" alt="EduPhilo Logo" class="h-12 w-auto mx-auto lg:mx-0 mb-4">
+                        <h3 class="text-2xl font-bold text-white mb-4">EduPhilo</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Empowering futures through knowledge and skills. Your trusted partner in education and professional development.
+                        </p>
+                    </div>
+                    
+                    <!-- Enhanced Social Media Icons -->
+                    <div class="flex justify-center lg:justify-start space-x-3">
+                        <a href="#" class="group w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="group w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-red-500 hover:to-red-600 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="group w-12 h-12 bg-gradient-to-br from-blue-700 to-blue-800 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="group w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-300 hover:to-blue-400 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <a href="#" class="group w-12 h-12 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center hover:bg-gradient-to-br hover:from-red-400 hover:to-red-500 transition-all duration-300 transform hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                             </svg>
                         </a>
                     </div>
                 </div>
                 
-                <!-- Quick Links -->
+                <!-- Enhanced Quick Links -->
                 <div class="text-center lg:text-left">
-                    <h3 class="text-xl font-bold text-yellow-400 mb-4">Quick Links</h3>
-                    <div class="space-y-3">
-                        <a href="index.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Home</a>
-                        <a href="about.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">About Us</a>
-                        <a href="programs.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Academic Programmes</a>
-                        <a href="services.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Certifications</a>
-                        <a href="training.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Corporate Training</a>
-                        <a href="programs.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Micro-Credentials</a>
-                        <a href="institutions.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Study Abroad</a>
-                        <a href="contact.html" class="block text-gray-200 hover:text-white transition-colors duration-300 hover:translate-x-1 transform">Contact</a>
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center justify-center lg:justify-start">
+                        <svg class="w-6 h-6 mr-2 text-eduphilo-red" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                        </svg>
+                        Quick Links
+                    </h3>
+                    <div class="space-y-4">
+                        <a href="index.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Home</span>
+                        </a>
+                        <a href="about.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">About Us</span>
+                        </a>
+                        <a href="programs.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Academic Programmes</span>
+                        </a>
+                        <a href="services.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Certifications</span>
+                        </a>
+                        <a href="training.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Corporate Training</span>
+                        </a>
+                        <a href="programs.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Micro-Credentials</span>
+                        </a>
+                        <a href="institutions.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Study Abroad</span>
+                        </a>
+                        <a href="contact.html" class="group flex items-center text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 transform">
+                            <div class="w-2 h-2 bg-eduphilo-red rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                            <span class="font-medium">Contact</span>
+                        </a>
                     </div>
                 </div>
                 
-                <!-- Contact Info -->
+                <!-- Enhanced Contact Info -->
                 <div class="text-center lg:text-left">
-                    <h3 class="text-xl font-bold text-yellow-400 mb-4">Contact Info</h3>
-                    <div class="space-y-3">
-                        <div class="flex items-start space-x-3">
-                            <svg class="w-5 h-5 text-yellow-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
-                            </svg>
-                            <p class="text-sm text-gray-200 text-left">C-04-02, Level 4, Block C Tamarind Square Persiaran Multimedia 63000 Cyberjaya Selangor MALAYSIA</p>
-                        </div>
-                        <div class="flex items-center space-x-3">
-                            <svg class="w-5 h-5 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                            </svg>
-                            <a href="mailto:s_shahrani@eduphilo.com.my" class="text-sm text-gray-200 hover:text-white transition-colors duration-300">s_shahrani@eduphilo.com.my</a>
-                        </div>
-                        <div class="flex items-center space-x-3">
-                            <svg class="w-5 h-5 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                            </svg>
-                            <a href="tel:+60388008832" class="text-sm text-gray-200 hover:text-white transition-colors duration-300">+6 03 8800 8832</a>
-                        </div>
-                        <div class="flex items-center space-x-3">
-                            <svg class="w-5 h-5 text-yellow-400 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-                            </svg>
-                            <span class="text-sm text-gray-200">WhatsApp Support</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Stay Updated -->
-                <div class="text-center lg:text-left">
-                    <h3 class="text-xl font-bold text-yellow-400 mb-4">Stay Updated</h3>
-                    <p class="text-sm text-gray-200 mb-4">Subscribe to our newsletter for updates</p>
-                    
-                    <!-- Newsletter Form -->
-                    <form class="mb-6">
-                        <div class="relative">
-                            <input type="email" placeholder="Your email" class="w-full px-4 py-3 bg-gray-700 text-white placeholder-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300">
-                            <button type="submit" class="absolute right-2 top-2 w-8 h-8 bg-yellow-400 text-gray-800 rounded-md flex items-center justify-center hover:bg-yellow-300 transition-colors duration-300 transform hover:scale-110">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center justify-center lg:justify-start">
+                        <svg class="w-6 h-6 mr-2 text-eduphilo-red" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                        </svg>
+                        Contact Info
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="group flex items-start space-x-4 p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <div class="w-10 h-10 bg-gradient-to-br from-eduphilo-red to-red-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
                                 </svg>
-                            </button>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-gray-300 text-sm leading-relaxed">C-04-02, Level 4, Block C Tamarind Square Persiaran Multimedia 63000 Cyberjaya Selangor MALAYSIA</p>
+                            </div>
                         </div>
-                    </form>
+                        <div class="group flex items-center space-x-4 p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                                </svg>
+                            </div>
+                            <a href="mailto:s_shahrani@eduphilo.com.my" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">s_shahrani@eduphilo.com.my</a>
+                        </div>
+                        <div class="group flex items-center space-x-4 p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <div class="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                                </svg>
+                            </div>
+                            <a href="tel:+60388008832" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">+6 03 8800 8832</a>
+                        </div>
+                        <div class="group flex items-center space-x-4 p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                                </svg>
+                            </div>
+                            <span class="text-gray-300 font-medium">WhatsApp Support</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Enhanced Working Hours -->
+                <div class="text-center lg:text-left">
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center justify-center lg:justify-start">
+                        <svg class="w-6 h-6 mr-2 text-eduphilo-red" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                        </svg>
+                        Working Hours
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="group flex items-center justify-between p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <span class="text-gray-300 font-medium">Monday - Friday</span>
+                            <span class="text-white font-semibold">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="group flex items-center justify-between p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <span class="text-gray-300 font-medium">Saturday</span>
+                            <span class="text-white font-semibold">9:00 AM - 2:00 PM</span>
+                        </div>
+                        <div class="group flex items-center justify-between p-3 rounded-xl hover:bg-white/5 transition-all duration-300">
+                            <span class="text-gray-300 font-medium">Sunday</span>
+                            <span class="text-red-400 font-semibold">Closed</span>
+                        </div>
+                    </div>
                     
-                    <!-- Working Hours -->
-                    <div>
-                        <h4 class="text-lg font-semibold text-yellow-400 mb-3">Working Hours</h4>
-                        <div class="space-y-2 text-sm text-gray-200">
-                            <div class="flex justify-between">
-                                <span>Monday - Friday:</span>
-                                <span>9:00 AM - 6:00 PM</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Saturday:</span>
-                                <span>9:00 AM - 2:00 PM</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Sunday:</span>
-                                <span>Closed</span>
+                    <!-- Status Indicator -->
+                    <div class="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-300 text-sm">Current Status:</span>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+                                <span class="text-green-400 text-sm font-medium">Open</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Bottom Bar -->
-            <div class="border-t border-gray-600 mt-8 pt-8">
+            <!-- Enhanced Bottom Bar -->
+            <div class="border-t border-white/10 mt-12 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                     <p class="text-sm text-gray-300">&copy; 2025 EduPhilo. All rights reserved.</p>
-                    <div class="flex items-center space-x-4 text-sm text-gray-300">
-                        <a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a>
-                        <span>|</span>
-                        <a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a>
-                        <span>|</span>
-                        <a href="#" class="hover:text-white transition-colors duration-300">Cookie Policy</a>
-                    </div>
-                    <p class="text-sm text-gray-300">Powered by Infinita Tech Solutions Sdn. Bhd.</p>
+
+                                            <p class="text-sm text-gray-300">Powered by <a href="https://www.infinitatech.com" target="_blank" class="text-eduphilo-red font-medium hover:text-white transition-colors duration-300">Infinita Tech Solutions Sdn. Bhd.</a></p>
                 </div>
             </div>
         </div>
@@ -339,16 +515,7 @@
             });
         });
         
-        // Newsletter form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const email = this.querySelector('input[type="email"]').value;
-            if (email) {
-                // Add your newsletter subscription logic here
-                alert('Thank you for subscribing to our newsletter!');
-                this.querySelector('input[type="email"]').value = '';
-            }
-        });
+
         
         // Smooth scrolling for all internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
