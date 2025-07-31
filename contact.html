@@ -65,14 +65,15 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100">
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100 shadow-lg z-50">
             <div class="px-4 py-6 space-y-4">
                 <a href="index.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Home</a>
-                                            <a href="about.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Who We Are</a>
+                <a href="about.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Who We Are</a>
                 <a href="services.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Services</a>
-                <a href="programs.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Programs</a>
+                <a href="programs.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Programmes</a>
                 <a href="institutions.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Institutions</a>
                 <a href="training.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Training</a>
+                <a href="gallery.html" class="block text-gray-700 hover:text-eduphilo-blue transition-colors duration-300 font-medium">Gallery</a>
                 <a href="contact.html" class="block text-eduphilo-blue hover:text-eduphilo-red transition-colors duration-300 font-medium">Contact</a>
             </div>
         </div>
@@ -563,8 +564,24 @@
         const mobileMenu = document.getElementById('mobile-menu');
         
         if (mobileMenuButton && mobileMenu) {
-            mobileMenuButton.addEventListener('click', function() {
+            mobileMenuButton.addEventListener('click', () => {
                 mobileMenu.classList.toggle('hidden');
+                console.log('Mobile menu toggled:', !mobileMenu.classList.contains('hidden'));
+            });
+
+            // Close mobile menu when clicking on a link
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
             });
         }
 
